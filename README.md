@@ -1,2 +1,2 @@
-# powerbi-vis-financial-reporting-matrix
+# Financial Reporting Matrix
 Power BI Custom Visual for Financial Reporting
