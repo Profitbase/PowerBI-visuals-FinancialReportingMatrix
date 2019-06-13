@@ -29,6 +29,8 @@ To add subtotals or line formatting click the edit link in the upper right menu 
 
 In edit mode right click on any row header to add a new report line or update the style on the current line or right click on any column header to add conditional formatting.
 
+![Usage gif](./assets/usage.gif)
+
 ## The JSON structure for formatting and calculations in data model
 
 ```json
