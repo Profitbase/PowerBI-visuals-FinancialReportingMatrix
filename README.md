@@ -19,6 +19,8 @@ For any questions about this visual, please send an e-mail to our team at suppor
 
 ## Usage
 
+[Link to video on usage](./assets/usage.mp4)
+
 The Financial Reporting Matrix has 3 bucket fields.
 
 1. Rows - Drag on the column that represents the report line.
@@ -28,8 +30,6 @@ The Financial Reporting Matrix has 3 bucket fields.
 To add subtotals or line formatting click the edit link in the upper right menu of the visual.
 
 In edit mode right click on any row header to add a new report line or update the style on the current line or right click on any column header to add conditional formatting.
-
-![Usage gif](./assets/usage.gif)
 
 ## The JSON structure for formatting and calculations in data model
 
