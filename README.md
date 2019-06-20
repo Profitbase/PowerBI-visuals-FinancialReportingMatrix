@@ -1,4 +1,4 @@
-# Financial Reporting Matrix
+# Financial Reporting Matrix [![github releace](https://img.shields.io/github/release/Profitbase/PowerBI-visuals-FinancialReportingMatrix.svg)]
 
 #### An improved matrix visual with advanced formatting
 
