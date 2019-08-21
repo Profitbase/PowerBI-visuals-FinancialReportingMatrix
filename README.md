@@ -4,6 +4,8 @@
 
 The Financial Reporting Matrix custom visual provides calculations and conditional formatting for matrix style reports. It provides a number of features not available in the standard matrix visual, including line formatting, conditional formatting, subtotals, and more. Custom calculated lines and custom format specifications can be defined directly in the data model. Configured via the standard fields and formatting pane. Particularly suited for financial reports.
 
+![](assets/Demo_Screenshot.png?raw=true)
+
 ## Features
 
 - Subtotals
