@@ -15,25 +15,39 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 - Sticky column and row headers
 - Conditional formatting
 - Configure via fields and formatting pane
-- Supports formatting and calculations in data model
+- Supports formatting and calculations from the data model
 
 For any questions about this visual, please send an e-mail to our team at support@profitbase.no.
 
-## Usage
+## Getting started
 
-[Link to video on usage](./assets/usage.mp4)
+### Video tutorial
+[Demo - Create a basic income statement](https://youtu.be/MfbrkhQKSL4)
 
-The Financial Reporting Matrix has 3 bucket fields.
+### Step-by-step guide
 
-1. Rows - Drag on the column that represents the report line.
-2. Columns - Drag on the columns to pivot on.
-3. Values - Drag on at least one measure.
+1. Install the Financial Reporting Matrix by Profitbase from AppSource.
+2. Add your data source
+3. Add the visual to the dashboard
+4. Configure the bucket fields  
+  1. Rows - Drag-drop the column(s) that represents the report line.
+  2. Columns - Drag-drop the columns(s) to pivot on.
+  3. Values - Drag-drop at least one measure.
 
-To add subtotals or line formatting click the edit link in the upper right menu of the visual.
 
-In edit mode right click on any row header to add a new report line or update the style on the current line or right click on any column header to add conditional formatting.
+#### Add subtotals
+1. Click the edit link in the upper right menu of the visual.
+2. Right click a row and select 'Add row'. This will add a (subtotal) row below the right-clicked row.
+3. Provide a name.
+4. Click the rows you want to include in the formula. By default, addition operators applied, but you can change this manually.
 
-## The JSON structure for formatting and calculations in data model
+#### Add conditional formatting
+1. Right click a column header and select 'Add conditional formatting'.
+2. Using the editor that appears over the matrix, specify the rule and style to apply.
+3. By default, the style 'custom 1' is selected. You can select a different style from the rule editor drop down.
+4. From the 'Format' tool, modify the 'custom 1' style to meet your requirements.
+
+## Calculations and formatting from the data model
 
 ```json
 {
