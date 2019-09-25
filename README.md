@@ -30,9 +30,9 @@ For any questions about this visual, please send an e-mail to our team at suppor
 2. Add your data source
 3. Add the visual to the dashboard
 4. Configure the bucket fields  
-  1. Rows - Drag-drop the column(s) that represents the report line.
-  2. Columns - Drag-drop the columns(s) to pivot on.
-  3. Values - Drag-drop at least one measure.
+   - Rows - Drag-drop the column(s) that represents the report line.
+   - Columns - Drag-drop the columns(s) to pivot on.
+   - Values - Drag-drop at least one measure.
 
 
 #### Add subtotals
@@ -48,6 +48,7 @@ For any questions about this visual, please send an e-mail to our team at suppor
 4. From the 'Format' tool, modify the 'custom 1' style to meet your requirements.
 
 ## Calculations and formatting from the data model
+This is an (optional) advanced feature that lets you embed formulas, formatting rules and styling in the data model instead of setting it up in the visual.
 
 ```json
 {
@@ -63,6 +64,6 @@ For any questions about this visual, please send an e-mail to our team at suppor
 - **id**: A short identifier for the report line.
 - **displayName**: The description shown in the matrix.
 - **formula**: The calculation to run on the report line. Use **id** references to other report lines. Simple mathematical formulas supported.
-- **style**: A string of one or more styles to apply seperated with a space
-- **formatString**: the format of how the values should be formatted.
+- **style**: A string of one or more styles to apply, seperated by a whitespace
+- **formatString**: the format string for formatting values. We use [numbro.js](https://numbrojs.com/) to format numeric values.
 - **signFactor**: the values on the reportline.
