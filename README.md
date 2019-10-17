@@ -17,11 +17,12 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 - Configure via fields and formatting pane
 - Supports formatting and calculations from the data model
 
-For any questions about this visual, please send an e-mail to our team at support@profitbase.no.
+For any questions about this visual, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) or send an e-mail to our team at support@profitbase.no.
 
 ## Getting started
 
 ### Video tutorial
+
 [Demo - Create a basic income statement](https://youtu.be/MfbrkhQKSL4)
 
 ### Step-by-step guide
@@ -29,25 +30,27 @@ For any questions about this visual, please send an e-mail to our team at suppor
 1. Install the Financial Reporting Matrix by Profitbase from AppSource.
 2. Add your data source
 3. Add the visual to the dashboard
-4. Configure the bucket fields  
+4. Configure the bucket fields
    - Rows - Drag-drop the column(s) that represents the report line.
    - Columns - Drag-drop the columns(s) to pivot on.
    - Values - Drag-drop at least one measure.
 
-
 #### Add subtotals
+
 1. Click the edit link in the upper right menu of the visual.
 2. Right click a row and select 'Add row'. This will add a (subtotal) row below the right-clicked row.
 3. Provide a name.
 4. Click the rows you want to include in the formula. By default, addition operators applied, but you can change this manually.
 
 #### Add conditional formatting
+
 1. Right click a column header and select 'Add conditional formatting'.
 2. Using the editor that appears over the matrix, specify the rule and style to apply.
 3. By default, the style 'custom 1' is selected. You can select a different style from the rule editor drop down.
 4. From the 'Format' tool, modify the 'custom 1' style to meet your requirements.
 
 ## Calculations and formatting from the data model
+
 This is an (optional) advanced feature that lets you embed formulas, formatting rules and styling in the data model instead of setting it up in the visual.
 
 ```json
@@ -67,3 +70,9 @@ This is an (optional) advanced feature that lets you embed formulas, formatting 
 - **style**: A string of one or more styles to apply, seperated by a whitespace
 - **formatString**: the format string for formatting values. We use [numbro.js](https://numbrojs.com/) to format numeric values.
 - **signFactor**: the values on the reportline.
+
+## Early adopters / getting the lates bits
+
+Because updating a Power BI custom visual published to Marketplace takes many weeks to complete, getting fixes and new features out to customers makes it hard to move fast. For those of you that can (and want) to get the latest updates before they are available on Marketplace, we offer you the option to download the visual as a file directly from us, so that you don't have to wait for the submission / validation process to complete.
+
+[Get the unofficial / early bits here](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/tree/master/downloads)
