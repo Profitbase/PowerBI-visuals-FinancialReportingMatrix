@@ -21,6 +21,10 @@ For any questions about this visual, please submit an [issue](https://github.com
 
 ## Getting started
 
+### Get it from Marketplace
+
+[Download the visual from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview)
+
 ### Video tutorial
 
 [Demo - Create a basic income statement](https://youtu.be/MfbrkhQKSL4)
