@@ -17,7 +17,7 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 - Configure via fields and formatting pane
 - Supports formatting and calculations from the data model
 
-For any questions about this visual, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) or send an e-mail to our team at support@profitbase.no.
+For any questions about this visual, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues).
 
 ## Getting started
 
