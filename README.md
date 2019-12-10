@@ -27,7 +27,7 @@ For any questions about this visual, please submit an [issue](https://github.com
 
 ### Video tutorial
 
-[Demo - Create a basic income statement](https://youtu.be/MfbrkhQKSL4)
+[Demo - Create a basic income statement](https://www.youtube.com/watch?v=O0ibpu_np80)
 
 ### Step-by-step guide
 
