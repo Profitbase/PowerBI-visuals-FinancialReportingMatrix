@@ -77,6 +77,6 @@ This is an (optional) advanced feature that lets you embed formulas, formatting 
 
 ## Early adopters / getting the lates bits
 
-Because updating a Power BI custom visual published to Marketplace takes many weeks to complete, getting fixes and new features out to customers makes it hard to move fast. For those of you that can (and want) to get the latest updates before they are available on Marketplace, we offer you the option to download the visual as a file directly from us, so that you don't have to wait for the submission / validation process to complete.
+Because updating a Power BI custom visual published to AppSource takes many weeks to complete, getting fixes and new features out to customers makes it hard to move fast. For those of you that can (and want) to get the latest updates before they are available on AppSource, we offer you the option to download the visual as a file directly from us, so that you don't have to wait for the submission / validation process to complete.
 
-[Get the unofficial / early bits here](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/tree/master/downloads)
+[Get the latest bits here](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases)
