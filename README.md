@@ -8,8 +8,8 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 
 ## Have questions or need help?
 
-To read the docs and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
-Please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) and we'll help you as quickly as we can.
+To get started and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
+Please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) if the Wiki does not answer your questions, if you have found a bug, if you have a feature request or any other type of inquery regading this visual.
 
 
 ## Features
