@@ -7,7 +7,10 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 ![Income Statement](assets/Demo_Screenshot.PNG)
 
 ## Have questions or need help?
+
+To read the docs and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
 Please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) and we'll help you as quickly as we can.
+
 
 ## Features
 
