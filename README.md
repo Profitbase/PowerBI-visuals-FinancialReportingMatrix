@@ -6,6 +6,9 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 
 ![Income Statement](assets/Demo_Screenshot.PNG)
 
+## Have questions or need help?
+Please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) and we'll help you as quickly as we can.
+
 ## Features
 
 - Subtotals
