@@ -29,11 +29,13 @@ For any questions about this visual, please submit an [issue](https://github.com
 
 ### Get it from Marketplace
 
-[Download the visual from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview)
+[Download the visual from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview)  
+[Download from Profitbase](https://www.profitbase.com/powerbi/) (Latest official version)  
 
 ### Video tutorial
 
-[Demo - Create a basic income statement](https://www.youtube.com/watch?v=O0ibpu_np80)
+[Demo - Create a basic income statement](https://www.youtube.com/watch?v=O0ibpu_np80)  
+[Demo - New features in version 3](https://www.youtube.com/watch?v=jHt3l1K6At8&t)  
 
 ### Step-by-step guide
 
