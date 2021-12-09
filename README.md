@@ -83,7 +83,7 @@ This is an (optional) advanced feature that lets you embed formulas, formatting 
 - **formatString**: the format string for formatting values. We use [numbro.js](https://numbrojs.com/) to format numeric values.
 - **signFactor**: the values on the reportline.
 
-## Early adopters / getting the lates bits
+## Early adopters / getting the latest bits
 
 Because updating a Power BI custom visual published to AppSource takes many weeks to complete, getting fixes and new features out to customers makes it hard to move fast. For those of you that can (and want) to get the latest updates before they are available on AppSource, we offer you the option to download the visual as a file directly from us, so that you don't have to wait for the submission / validation process to complete.
 
