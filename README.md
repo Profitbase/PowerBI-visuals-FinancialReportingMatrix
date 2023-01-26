@@ -9,12 +9,14 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 ## Have questions or need help?
 
 To get started and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
-If if you have found a bug, have a feature request or any other type of inquery regading this visual, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues), and we'll answer you as quickly as we can.
+If if you have found a bug, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues), and we'll answer you as quickly as we can. If you have a feature request or any other type of inquery regading this visual, please let us know at our [Discussion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/discussions)
 
 
 ## Features
 
+- Export to Excel
 - Subtotals
+- Expand/Collapse on columns
 - Line formatting
 - Cross-highlighting / Cross-filtering
 - Multiple column headers / Pivoting
