@@ -15,7 +15,7 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 
 ## Features
 
-- Export to Excel
+- [Export to Excel](https://youtu.be/45PP28bb3h4)
 - Subtotals
 - Expand/Collapse on columns
 - Line formatting
