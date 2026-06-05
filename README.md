@@ -1,4 +1,4 @@
-# Financial Reporting Matrix by Profitbase [![github releace](https://img.shields.io/github/release/Profitbase/PowerBI-visuals-FinancialReportingMatrix.svg)]
+# Financial Reporting Matrix by Profitbase [![github release](https://img.shields.io/github/release/Profitbase/PowerBI-visuals-FinancialReportingMatrix.svg)]
 
 #### An improved matrix visual with advanced formatting
 
@@ -10,7 +10,7 @@ The Financial Reporting Matrix custom visual provides calculations and condition
 
 - To get started and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
 - If if you have found a bug, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues), and we'll answer you as quickly as we can. 
-- If you have a feature request or any other type of inquery regading this visual, please let us know at our [discussion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/discussions), and we'll follow your post there.
+- If you have a feature request or any other type of inquiry regading this visual, please let us know at our [discussion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/discussions), and we'll follow your post there.
 
 
 ## Features
@@ -82,7 +82,7 @@ This is an (optional) advanced feature that lets you embed formulas, formatting 
 - **id**: A short identifier for the report line.
 - **displayName**: The description shown in the matrix.
 - **formula**: The calculation to run on the report line. Use **id** references to other report lines. Simple mathematical formulas supported.
-- **style**: A string of one or more styles to apply, seperated by a whitespace
+- **style**: A string of one or more styles to apply, separated by a whitespace
 - **formatString**: the format string for formatting values. We use [numbro.js](https://numbrojs.com/) to format numeric values.
 - **signFactor**: the values on the reportline.
 
