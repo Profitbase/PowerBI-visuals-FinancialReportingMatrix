@@ -26,16 +26,17 @@
           { "verticalGridColor": "" },
           { "horizontalGrid": false },
           { "horizontalGridThickness": 1 },
-          { "horizontalColor": "" },
+          { "horizontalGridColor": "" },
           { "rowPadding": 1 },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "outlineColor": "" },
           { "outlineWeight": 1 }
         ],
         "downloadExcel": [
-          { "show": true },
+          { "show": false },
           { "iconPosition": "bottom right | bottom left | top left | top right" },
           { "automaticHideIcon": false },
+          { "fileSizeLimit": 10 },
           { "transparentBackground": false },
           { "showBorder": false },
           { "buttonSize": "large | middle | small" }
@@ -62,7 +63,7 @@
           {
             "headerTitle": "Row column | Column row | Row | Column"
           },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontSize": 12 },
           { "alignment": "left | center | right" }
         ],
@@ -70,9 +71,12 @@
           { "firstColumnWidth": 150 },
           { "firstColumnWidthStatic": 150 },
           { "width": 100 },
+          { "columnWidthStatic": 100 },
           { "isHidden": false },
+          { "applyToAllLevels": false },
           { "color": "" },
           { "backgroundColor": "" },
+          { "columnBackgroundColor": "" },
           { "columnSeparatorColor": "" },
           { "separator": "<empty> | left | right | both" },
           { "formatString": "<empty> | <Power BI format string> | custom" },
@@ -96,7 +100,11 @@
           { "verticalGridThickness": 1 },
           { "horizontalGrid": false },
           { "horizontalGridColor": "" },
-          { "horizontalGridThickness": 1 }
+          { "horizontalGridThickness": 1 },
+          { "showPinIcon": false },
+          { "enableDateFormatting": false },
+          { "dateFormat": "<empty> | custom" },
+          { "customDateFormat": "" }
         ],
         "columnExpansion": [
           { "show": false },
@@ -118,6 +126,7 @@
             "outline": "<empty> | bottom | bottom double | top | top right | top bottom | top bottom double | left | right | left right | top bottom left right"
           },
           { "textSize": 8 },
+          { "alignment": "left | center | right" },
           { "dateFormat": "<empty> | custom" },
           { "customDateFormat": "" },
           { "wordWrap": true }
@@ -129,6 +138,7 @@
           },
           { "negativeValueFormatting": "minus | parentheses" },
           { "zeroValueFormatting": "dash | empty | zero" },
+          { "applyFormatToZeroValues": false },
           { "noValue": "zero | empty" },
           { "formatString": "<empty> | <Power BI format string> | custom" },
           { "customFormatString": "<Power BI format string>" },
@@ -203,11 +213,41 @@
           { "hideCondition": "" }
         ],
         "hideEmptyColumns": [{ "show": false }, { "alwaysShowCustomMeasures": true }],
-        "raggedHierarchy": [{ "compressDescendants": false }, { "hideBlanks": false }],
+        "raggedHierarchy": [
+          { "compressDescendants": false },
+          { "hideBlanks": false },
+          { "hideColumnDescendants": false },
+          { "hideColumnBlanks": false }
+        ],
         "webUrl": [{ "show": false }, { "showUrlIcon": false }, { "color": "" }],
+        "drillDown": [{ "enableDrill": false }],
+        "sortBy": [
+          { "show": false },
+          { "iconPosition": "bottom right | bottom left | top left | top right" },
+          { "automaticHideIcon": false },
+          { "transparentBackground": false },
+          { "showBorder": false },
+          { "buttonSize": "large | middle | small" }
+        ],
+        "search": [
+          { "show": false },
+          { "iconPosition": "bottom right | bottom left | top left | top right" },
+          { "automaticHideIcon": false },
+          { "transparentBackground": false },
+          { "showBorder": false },
+          { "buttonSize": "large | middle | small" }
+        ],
+        "groupButton": [
+          { "show": false },
+          { "iconPosition": "bottom right | bottom left | top left | top right" },
+          { "automaticHideIcon": false },
+          { "transparentBackground": false },
+          { "showBorder": false },
+          { "buttonSize": "large | middle | small" }
+        ],
         "stylesTotal": [
           { "bold": true },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -222,7 +262,7 @@
         ],
         "stylesSubtotal": [
           { "bold": true },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -237,7 +277,7 @@
         ],
         "stylesKPI": [
           { "bold": true },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -252,7 +292,7 @@
         ],
         "stylesCustom1": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -267,7 +307,7 @@
         ],
         "stylesCustom2": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -282,7 +322,7 @@
         ],
         "stylesCustom3": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -297,7 +337,7 @@
         ],
         "stylesCustom4": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -312,7 +352,7 @@
         ],
         "stylesCustom5": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -327,7 +367,7 @@
         ],
         "stylesCustom6": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -342,7 +382,7 @@
         ],
         "stylesBold": [
           { "bold": true },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
@@ -357,11 +397,13 @@
         ],
         "stylesOverline": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
           { "background": "" },
+          { "marginTop": 0 },
+          { "marginBottom": 0 },
           {
             "outline": "\"\" | bottom | bottom double | top | top bottom | top bottom double | left | right | left right | top bottom left right"
           },
@@ -370,11 +412,13 @@
         ],
         "stylesUnderline": [
           { "bold": false },
-          { "fontFamily": "" },
+          { "fontFamily": "Segoe UI" },
           { "fontStyleItalic": false },
           { "fontSize": 8 },
           { "color": "" },
           { "background": "" },
+          { "marginTop": 0 },
+          { "marginBottom": 0 },
           {
             "outline": "\"\" | bottom | bottom double | top | top bottom | top bottom double | left | right | left right | top bottom left right"
           },
@@ -385,4 +429,3 @@
     }
   }
 }
-
