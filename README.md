@@ -1,72 +1,105 @@
-# Financial Reporting Matrix by Profitbase [![github release](https://img.shields.io/github/release/Profitbase/PowerBI-visuals-FinancialReportingMatrix.svg)]
+# Financial Reporting Matrix by Profitbase
 
-#### An improved matrix visual with advanced formatting
+[![GitHub release](https://img.shields.io/github/release/Profitbase/PowerBI-visuals-FinancialReportingMatrix.svg)](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases)
 
-The Financial Reporting Matrix custom visual provides calculations and conditional formatting for matrix style reports. It provides a number of features not available in the standard matrix visual, including line formatting, conditional formatting, subtotals, and more. Custom calculated lines and custom format specifications can be defined directly in the data model. Configured via the standard fields and formatting pane. Particularly suited for financial reports.
+Financial Reporting Matrix is a Power BI custom visual for building financial statements and other matrix-style reports that require more control over calculations, formatting and layout than the standard Power BI Matrix.
+
+It is designed for income statements, balance sheets, cash flow statements, variance reports and other structured financial reports.
+
+[Get it from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview) · [Documentation](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki) · [Latest releases](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases)
 
 ![Income Statement](assets/Demo_Screenshot.PNG)
 
-## Have questions or need help?
-
-- To get started and explore features, please visit our [Wiki](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki).  
-- If if you have found a bug, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues), and we'll answer you as quickly as we can. 
-- If you have a feature request or any other type of inquiry regading this visual, please let us know at our [discussion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/discussions), and we'll follow your post there.
-
-
 ## Features
 
-- [Export to Excel](https://youtu.be/45PP28bb3h4)
-- Subtotals
-- Expand/Collapse on columns
-- Line formatting
-- Cross-highlighting / Cross-filtering
-- Multiple column headers / Pivoting
-- Sticky column and row headers
-- Conditional formatting
-- Configure via fields and formatting pane
-- Supports formatting and calculations from the data model
+### Report structure and navigation
 
-For any questions about this visual, please submit an [issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues).
+* [Rows, columns and values](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/adding-data-to-the-visual.html) configured through the standard Power BI field wells
+* Multiple column headers and pivoted report layouts
+* [Flexible measure placement](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/measure-placement.html), including measures above columns or displayed as rows
+* [Row expansion and collapse](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/row-expansion/row-expansion.html)
+* [Column expansion and collapse](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/column-expansion/column-expansion.html)
+* [Native drill-down](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/drill-down.html)
+* [Sorting of rows and columns](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/sorting-rows-columns.html)
+* Sticky row and column headers, with support for [pinned columns](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/column-styling/pin-columns.html)
+
+### Calculations and totals
+
+* [Custom subtotal rows](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/custom-subtotals-rows.html)
+* Column subtotals and grand totals
+* [Custom row and column calculations](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/calculations.html)
+* Financial, mathematical, logical, statistical, date and text functions
+* Calculation and formatting instructions supplied through the data model
+
+### Formatting
+
+* [Custom row and line formatting](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/row-styles-appearance/customize-row-styles.html)
+* [Individual column styles](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/column-styling/individual-column-styles.html)
+* [Conditional formatting](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/formatting/conditional-formatting.html)
+* [Cell formatting using the `FORMAT` function](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/formatting/cell-formatting-using-format-function.html)
+* [Data bars](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/data-bars.html)
+* [Report theming](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/theming/theming.html)
+* Configuration through the standard Power BI Format pane and the visual's contextual editors
+
+### Interaction and output
+
+* [Cross-filtering and cross-highlighting](https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions) with other Power BI visuals
+* [Export to Excel](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/export-to-excel.html), including values, formatting, backgrounds, outlines and grouped row hierarchies
+
+See the [complete Financial Reporting Matrix documentation](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki) for all available features and configuration options.
 
 ## Getting started
 
-### Get it from Marketplace
+### Install the visual
 
-[Download the visual from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview)  
-[Download from Profitbase](https://www.profitbase.com/powerbi/) (Latest official version)  
+The recommended way to install Financial Reporting Matrix is through Microsoft AppSource:
 
-### Video tutorial
+* [Download from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200000642?tab=Overview)
+* [Download from Profitbase](https://www.profitbase.com/powerbi/) — latest official version
+* [Download the latest GitHub release](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases)
 
-[Demo - Create a basic income statement](https://www.youtube.com/watch?v=O0ibpu_np80)  
-[Demo - New features in version 3](https://www.youtube.com/watch?v=jHt3l1K6At8&t)  
+### Configure the visual
 
-### Step-by-step guide
+1. Install Financial Reporting Matrix by Profitbase.
+2. Add the visual to a Power BI report page.
+3. Connect your data source.
+4. Add fields to the visual:
 
-1. Install the Financial Reporting Matrix by Profitbase from AppSource.
-2. Add your data source
-3. Add the visual to the dashboard
-4. Configure the bucket fields
-   - Rows - Drag-drop the column(s) that represents the report line.
-   - Columns - Drag-drop the columns(s) to pivot on.
-   - Values - Drag-drop at least one measure.
+   * **Rows:** Add the columns that define the report lines.
+   * **Columns:** Add the columns used to group or pivot the report.
+   * **Values:** Add at least one measure.
+5. Use the Format pane and the visual's contextual editors to configure the report.
 
-#### Add subtotals
+See [Adding data to the visual](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/adding-data-to-the-visual.html) for more information.
 
-1. Click the edit link in the upper right menu of the visual.
-2. Right click a row and select 'Add row'. This will add a (subtotal) row below the right-clicked row.
-3. Provide a name.
-4. Click the rows you want to include in the formula. By default, addition operators applied, but you can change this manually.
+## Common tasks
 
-#### Add conditional formatting
+### Add a custom subtotal
 
-1. Right click a column header and select 'Add conditional formatting'.
-2. Using the editor that appears over the matrix, specify the rule and style to apply.
-3. By default, the style 'custom 1' is selected. You can select a different style from the rule editor drop down.
-4. From the 'Format' tool, modify the 'custom 1' style to meet your requirements.
+1. Open edit mode from the menu in the upper-right corner of the visual.
+2. Right-click the row where the subtotal should be inserted.
+3. Select **Add row** and enter a name.
+4. Select the rows that should be included in the calculation.
+5. Adjust the formula operators when required. Addition is used by default.
+6. Optionally apply a custom row style and number format.
+
+See [Custom subtotals](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/custom-subtotals-rows.html) for the complete instructions.
+
+### Add conditional formatting
+
+1. Open edit mode.
+2. Right-click the relevant column header.
+3. Select **Add conditional formatting**.
+4. Define the conditions and choose the formatting to apply.
+5. Use the Format pane to configure reusable custom styles when required.
+
+See [Conditional formatting](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/formatting/conditional-formatting.html) for supported conditions, colour scales, column-index formatting and other options.
 
 ## Calculations and formatting from the data model
 
-This is an (optional) advanced feature that lets you embed formulas, formatting rules and styling in the data model instead of setting it up in the visual.
+Financial Reporting Matrix can read formulas, formatting rules and styles from the data model. This optional advanced feature allows report configuration to be managed as data instead of being set up manually in each visual.
+
+Example:
 
 ```json
 {
@@ -79,15 +112,37 @@ This is an (optional) advanced feature that lets you embed formulas, formatting 
 }
 ```
 
-- **id**: A short identifier for the report line.
-- **displayName**: The description shown in the matrix.
-- **formula**: The calculation to run on the report line. Use **id** references to other report lines. Simple mathematical formulas supported.
-- **style**: A string of one or more styles to apply, separated by a whitespace
-- **formatString**: the format string for formatting values. We use [numbro.js](https://numbrojs.com/) to format numeric values.
-- **signFactor**: the values on the reportline.
+The properties in this example are:
 
-## Early adopters / getting the latest bits
+* **id:** A short identifier for the report line.
+* **displayName:** The description displayed in the matrix.
+* **formula:** The calculation applied to the report line. Other report lines can be referenced by their IDs.
+* **style:** One or more styles to apply, separated by spaces.
+* **formatString:** The numeric format string. Financial Reporting Matrix uses [numbro.js](https://numbrojs.com/) for numeric formatting.
+* **signFactor:** A factor used to adjust the sign of values on the report line.
 
-Because updating a Power BI custom visual published to AppSource takes many weeks to complete, getting fixes and new features out to customers makes it hard to move fast. For those of you that can (and want) to get the latest updates before they are available on AppSource, we offer you the option to download the visual as a file directly from us, so that you don't have to wait for the submission / validation process to complete.
+See the [calculation documentation](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/calculations.html) and [cell-formatting documentation](https://docs.profitbase.com/articles/PowerBI/financial-reporting-matrix/formatting/cell-formatting-using-format-function.html) for more information.
 
-[Get the latest bits here](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases)
+## Tutorials
+
+* [Create a basic income statement](https://www.youtube.com/watch?v=O0ibpu_np80)
+* [Export to Excel](https://youtu.be/45PP28bb3h4)
+* [Features introduced in version 3](https://www.youtube.com/watch?v=jHt3l1K6At8&t)
+
+Some tutorials demonstrate earlier versions of the visual. Refer to the [current documentation](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki) for the latest functionality and configuration options.
+
+## Releases and early access
+
+Publishing an updated Power BI custom visual to AppSource requires a submission and validation process. Fixes and new functionality may therefore be available on GitHub before the corresponding AppSource update is published.
+
+Users who want to test the latest available package can download it from the [GitHub Releases page](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/releases).
+
+For production use, confirm that your organisation permits custom visual packages installed outside AppSource.
+
+## Documentation and support
+
+* Visit the [documentation](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki) for setup instructions and detailed feature information.
+* [Open an issue](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues) to report a reproducible bug or technical problem.
+* [Start a discussion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/discussions) for questions, feedback and feature requests.
+
+When reporting a problem, include the Financial Reporting Matrix version, Power BI version, steps to reproduce the issue and any relevant screenshots or sample data.
